@@ -1,0 +1,26 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_zero
+  always_update_cookbooks: true
+
+platforms:
+  - name: ubuntu-16.04
+    run_list:
+      - recipe[apt]
+
+suites:
+  - name: default
+    driver:
+      network:
+        - ["forwarded_port", {guest: 3000, host: 3000}]
+    run_list:
+      - recipe[consul]
+      - recipe[hashi_ui::default]
+    attributes:
+      consul:
+        config:
+          server: true
+          bootstrap: true

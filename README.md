@@ -1,2 +1,4 @@
-# hashi-ui-cookbook
-Chef Cookbook to Install and configure Hashi-ui(https://github.com/jippi/hashi-ui)
+# hashi_ui
+
+Installs and Configures Hashi-UI (https://github.com/jippi/hashi-ui#usage)
+
