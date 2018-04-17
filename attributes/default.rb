@@ -8,9 +8,9 @@ default['hashi_ui']['group'] = 'consul'
 default['hashi_ui']['user'] = 'consul'
 
 default['hashi_ui']['install_path'] = '/usr/local/bin'
-default['hashi_ui']['version'] = 'v0.17.0'
+default['hashi_ui']['version'] = 'v0.25.0'
 default['hashi_ui']['tar']['download_url'] = "https://github.com/jippi/hashi-ui/releases/download/#{node['hashi_ui']['version']}/hashi-ui-linux-amd64"
-default['hashi_ui']['tar']['checksum'] = '77c4db9460eac2cf4d89ae49efd5c5d8ab2f38ebcd3b6551572b40e6169a8190'
+default['hashi_ui']['tar']['checksum'] = '203f2c4d84baba095c062b0f9d413f7497d234370bb07985c738f41038e81f03'
 
 # General configuration
 default['hashi_ui']['config']['log-level'] = 'info'

@@ -4,7 +4,7 @@ maintainer_email 'cadyan.aoi@gmail.com'
 license 'Apache 2.0'
 description 'Installs/Configures hashi-ui'
 long_description 'Installs/Configures hashi-ui'
-version '0.1.0'
+version '0.1.1'
 chef_version '>= 12.1' if respond_to?(:chef_version)
 
 issues_url 'https://github.com/akadoya/hashi-ui-cookbook/issues'
